@@ -59,7 +59,7 @@ async def start(client, message):
                     InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='JoinUᴘᴅᴀᴛᴇs')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgQAAxkBAAJEeWXCA2o3tiRj4j7pLGxR59czTcT_AAJuDwAC4eqxUNoxB5joJxGiHgQ") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAJSPmXrrcLDv9dikAb1wDy_JMf4P4mHAAJuDwAC4eqxUNoxB5joJxGiHgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -179,8 +179,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Jisshu_support'),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/JISSHU_BOTS')
+                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/movies_request_48'),
+                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/hd_movies488')
                             ],[
                                InlineKeyboardButton('🚀 Fast Download/Watch Online 🖥', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
